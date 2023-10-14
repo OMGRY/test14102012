@@ -1,0 +1,78 @@
+New@KOMPUTER MINGW64 /h/test (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../$RECYCLE.BIN/
+        ../System Volume Information/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+New@KOMPUTER MINGW64 /h/test (main)
+$ git branch
+  NEW
+* main
+
+New@KOMPUTER MINGW64 /h/test (main)
+$ git log
+commit 6236625f39858f9b0e5b4c1702c50860d0f526ec (HEAD -> main, origin/main)
+Merge: 75065fe bc399c8
+Author: OMGRY <buhgalter0671597789@gmail.com>
+Date:   Sat Oct 14 15:24:44 2023 +0300
+
+    Merge branch 'main' of https://github.com/OMGRY/test14102012
+    I merge 2 branches because its the same test
+
+commit 75065fe84e9268e0d416e53166cfb0c00b0be8b5
+Merge: b59eaec 07390d6
+Author: OMGRY <buhgalter0671597789@gmail.com>
+Date:   Sat Oct 14 15:21:21 2023 +0300
+
+    Вирішення конфліктів у файлі index.html
+
+commit b59eaecd77f544f10d923a1d392987556c38f8df
+Author: OMGRY <buhgalter0671597789@gmail.com>
+Date:   Sat Oct 14 15:16:23 2023 +0300
+
+    Wrote changes in index.html
+
+commit 07390d683e6bb29f7cd55e52bbe50db676e7d6c1 (origin/NEW, NEW)
+Author: OMGRY <buhgalter0671597789@gmail.com>
+Date:   Sat Oct 14 15:03:04 2023 +0300
+
+    Написала good new change у index.html
+
+commit 27247a52ccd4198a3b8633f0b8e8d918aeac1aa0
+Author: OMGRY <buhgalter0671597789@gmail.com>
+Date:   Sat Oct 14 15:00:42 2023 +0300
+
+    Зміни у файлі index.html на новій гілці
+
+commit 7715cc23ecdf33511112a9de74fa0b4d760d95c2
+Author: OMGRY <buhgalter0671597789@gmail.com>
+Date:   Sat Oct 14 14:58:26 2023 +0300
+
+    Додала новий файл index.html
+
+commit bc399c8e8c6f661caf809736b236145d4b44259b
+Author: OMGRY <144536947+OMGRY@users.noreply.github.com>
+Date:   Sat Oct 14 14:15:16 2023 +0300
+
+    Initial commit
+
+New@KOMPUTER MINGW64 /h/test (main)
+$ git log --merges
+commit 6236625f39858f9b0e5b4c1702c50860d0f526ec (HEAD -> main, origin/main)
+Merge: 75065fe bc399c8
+Author: OMGRY <buhgalter0671597789@gmail.com>
+Date:   Sat Oct 14 15:24:44 2023 +0300
+
+    Merge branch 'main' of https://github.com/OMGRY/test14102012
+    I merge 2 branches because its the same test
+
+commit 75065fe84e9268e0d416e53166cfb0c00b0be8b5
+Merge: b59eaec 07390d6
+Author: OMGRY <buhgalter0671597789@gmail.com>
+Date:   Sat Oct 14 15:21:21 2023 +0300
+
+    Вирішення конфліктів у файлі index.html
